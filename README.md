@@ -1,7 +1,11 @@
 # du-lua-framework
- A framework to simplidy coding in Dual Universe.
+ A framework to simplify coding in Dual Universe.
  
  Permit to create most of the code in Unit > onStart
+
+# Edit the code Online
+
+[![img](https://du-lua.dev/img/open_in_editor_button.png)](https://du-lua.dev/#/editor/github/Jericho1060/du-lua-framework)
 
 # Guilded Server (better than Discord)
 
@@ -24,7 +28,7 @@ Copy the content of the file [`config.json`](https://raw.githubusercontent.com/J
 
 ## Major Changes compared to the game logic
 
-System onUpdate and onFlush events are now builded with coroutines, in the framework, onUpdate and onFlush are loading a table of functions that will be runned as coroutines. This way you can have multiple functions running at the same time, and you use the yield function to pause the coroutine and let the other coroutines run. Each coroutine will be resume or restarted if dead each time the system onUpdate or onFlush event is called.
+System onUpdate and onFlush events are now built with coroutines, in the framework, onUpdate and onFlush are loading a table of functions that will be runned as coroutines. This way you can have multiple functions running at the same time, and you use the yield function to pause the coroutine and let the other coroutines run. Each coroutine will be resume or restarted if dead each time the system onUpdate or onFlush event is called.
 
 ## Code Examples
 

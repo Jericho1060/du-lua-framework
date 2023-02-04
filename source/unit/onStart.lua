@@ -280,7 +280,7 @@ setmetatable(Script, DU_Framework)
 --[[
     You can declare here all the functions you want to call in the diffent events from system, unit, player and construct.
     Major changes compared to the base game concept:
-        - System onUpdate and onFlush events are now builded with coroutines, in the framework, onUpdate and onFlush are loading a table of functions that will be runned as coroutines. This way you can have multiple functions running at the same time, and you use the yield function to pause the coroutine and let the other coroutines run. Each coroutine will be resume or restarted if dead each time the system onUpdate or onFlush event is called.
+        - System onUpdate and onFlush events are now built with coroutines, in the framework, onUpdate and onFlush are loading a table of functions that will be runned as coroutines. This way you can have multiple functions running at the same time, and you use the yield function to pause the coroutine and let the other coroutines run. Each coroutine will be resume or restarted if dead each time the system onUpdate or onFlush event is called.
 
 ]]
 
